@@ -5,7 +5,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 from keras.models import Sequential, Model
 from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Conv2D, Conv2DTranspose, LeakyReLU, Dropout, BatchNormalization
-from keras.layers import Activation, LeakyReLU, BatchNormalization, Dropout
+from keras.layers import Activation
 from tensorflow.keras.optimizers import Adam
 from tqdm import tqdm
 import seaborn as sns
